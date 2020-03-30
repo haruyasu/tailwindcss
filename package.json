@@ -1,0 +1,21 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/css/main.css -o ./dist/tailwind.css",
+    "watch": "watch \"npm run build\" ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.27",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0",
+    "watch": "^1.0.2"
+  }
+}
